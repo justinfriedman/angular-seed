@@ -6,16 +6,6 @@ angular.
     controller:
       function listViewController($routeParams, $scope) {
 
-              
-
-
-      // for (var id in obj) {
-      //   if (obj.hasOwnProperty(prop)) {
-      //
-      //   }
-      // }
-
-
 
 
       }

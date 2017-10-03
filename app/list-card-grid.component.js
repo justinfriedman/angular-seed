@@ -78,7 +78,7 @@ angular.
                ]
                }];
 
-
+               console.log($scope.coffees);
 
 
 
