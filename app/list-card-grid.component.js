@@ -11,7 +11,7 @@ angular.
 
 
               // https://rapid-recruit.herokuapp.com/api/test
-              $http.get('https://cors-anywhere.herokuapp.com/https://rapid-recruit.herokuapp.com/api/test').
+              $http.get('https://rapid-recruit.herokuapp.com/api/organizations').
                   success(function(data, status, headers, config) {
                     $scope.coffees = data;
                     console.log(data);
