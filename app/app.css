@@ -14,3 +14,7 @@
 .new-list {
         text-align: center;
 }
+
+.nav-top {
+        background-color: rgb(33,150,243); //matching colors is rgb(255,86,34)
+}
