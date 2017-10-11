@@ -1,17 +1,15 @@
 //very similar to tutorial
 angular.
   module('myApp').
-  component('listCardGrid', {
-    templateUrl: 'list-card-grid.html',
+  component('signInCardGrid', {
+    templateUrl: 'sign-in-card-grid.html',
     controller:
-      function listCardGridController($routeParams, $scope) {
+      function signInCardGridController($routeParams, $scope) {
               //this needs to figure out what page you are on then pull the correct data to populate the cards
-              $scope.urlHash = location.hash.toString();
-              $scope.view = $scope.urlHash.replace(/\#\!\//, '');
 
 
 
-              $scope.lists =
+              $scope.signIns =
               [
                {
                'name': 'Fall Rush',
@@ -34,7 +32,7 @@ angular.
                'count': '0'
                }
        ];
-               console.log($scope.lists);
+             
 
 
 

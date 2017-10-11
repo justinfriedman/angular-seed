@@ -6,4 +6,5 @@ angular.module('myApp', [
   'signInView',
   'myApp.version'
 
+
 ]);

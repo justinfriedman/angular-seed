@@ -23,6 +23,10 @@ angular.
         when('/new-list', {
           template: '<new-list-view></new-list-view>'
         }).
+        when('/new-sign-in', {
+          template: '<new-sign-in-view></new-sign-in-view>'
+        }).
+        
         otherwise('/main');
     }
   ]);
