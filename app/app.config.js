@@ -3,8 +3,9 @@
 angular.
   module('myApp').
   config(['$locationProvider', '$routeProvider',
-    function config($locationProvider, $routeProvider) {
+    function config($locationProvider, $routeProvider, $rootScope) {
       $locationProvider.hashPrefix('!');
+     
 
       $routeProvider.
 
@@ -26,7 +27,7 @@ angular.
         when('/new-sign-in', {
           template: '<new-sign-in-view></new-sign-in-view>'
         }).
-        
+
         otherwise('/main');
     }
   ]);

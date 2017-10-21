@@ -4,7 +4,7 @@ angular.
   component('newSignInView', {
     templateUrl: 'new-sign-in-view.html',
     controller:
-      function newSignInViewController($routeParams, $scope) {
+      function newSignInViewController($routeParams, $scope, $rootScope) {
 
 
 

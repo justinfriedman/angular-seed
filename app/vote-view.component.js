@@ -4,9 +4,10 @@ angular.
   component('voteView', {
     templateUrl: 'vote-view.html',
     controller:
-      function voteViewController($routeParams, $scope) {
+      function voteViewController($routeParams, $scope, $rootScope) {
 
-             
+              $rootScope.cat = "feline";
+              console.log($rootScope.cat);
 
 
 

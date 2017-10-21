@@ -4,8 +4,8 @@ angular.
   component('newListView', {
     templateUrl: 'new-list-view.html',
     controller:
-      function newListView($routeParams, $scope) {
-              
+      function newListView($routeParams, $scope,$rootScope) {
+
 
 
 
