@@ -4,7 +4,7 @@ angular.
   component('listCardGrid', {
     templateUrl: 'list-card-grid.html',
     controller:
-      function listCardGridController($routeParams, $scope) {
+      function listCardGridController($routeParams, $scope, $http) {
               //this needs to figure out what page you are on then pull the correct data to populate the cards
               $scope.urlHash = location.hash.toString();
               $scope.view = $scope.urlHash.replace(/\#\!\//, '');
