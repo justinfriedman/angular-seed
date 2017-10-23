@@ -4,6 +4,6 @@ angular.module('myApp', [
   'listView',
   'voteView',
   'signInView',
+  'myOrgView',
   'myApp.version'
-
 ]);

@@ -17,6 +17,9 @@ angular.
         when('/vote', {
           template: '<vote-view></vote-view>'
         }).
+         when('/my-org', {
+          template: '<my-org-view></my-org-view>'
+        }).
         when('/sign-in', {
           template: '<sign-in-view></sign-in-view>'
         }).

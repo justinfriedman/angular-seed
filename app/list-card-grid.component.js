@@ -9,13 +9,12 @@ angular.
               $scope.urlHash = location.hash.toString();
               $scope.view = $scope.urlHash.replace(/\#\!\//, '');
 
-              $http.get('http://34.203.219.137/g4/organizations')
+              $http.get('http://34.203.219.137/g4/lists')
                       .success(function(result) {
-                          $scope.coffees = result;
+                          $scope.lists = result;
                       })
                       .error(function(data, status) {
                           $log.info(data);
                       });
       }
-
   });
