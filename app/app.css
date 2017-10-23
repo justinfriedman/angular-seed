@@ -49,3 +49,6 @@
 .current-page {
         color: #42dff4;
 }
+.no-hover tr:hover {
+    background-color: #FFFFFF !important;
+}
