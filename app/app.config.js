@@ -23,6 +23,9 @@ angular.
         when('/sign-in', {
           template: '<sign-in-view></sign-in-view>'
         }).
+        when('/new-sign-in', {
+          template: '<new-sign-in-view></new-sign-in-view>'
+        }).
         when('/new-list', {
           template: '<new-list-view></new-list-view>'
         }).
