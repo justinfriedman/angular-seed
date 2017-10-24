@@ -29,6 +29,12 @@ angular.
         when('/new-list', {
           template: '<new-list-view></new-list-view>'
         }).
+        when('/new-vote', {
+          template: '<new-vote-view></new-vote-view>'
+        }).
+        when('/new-batch-vote', {
+          template: '<new-batch-vote-view></new-batch-vote-view>'
+        }).
         otherwise('/main');
     }
   ]);
