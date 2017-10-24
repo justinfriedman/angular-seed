@@ -18,6 +18,7 @@
 
 .title {
         text-align: center;
+        color: #757575;
 }
 
 .new-list {
@@ -60,4 +61,10 @@
 }
 .no-hover tr:hover {
     background-color: #FFFFFF !important;
+}
+
+.in-line-btn {
+        display: inline;
+        
+
 }
