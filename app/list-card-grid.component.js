@@ -8,6 +8,7 @@ angular.
               //this needs to figure out what page you are on then pull the correct data to populate the cards
               $scope.urlHash = location.hash.toString();
               $scope.view = $scope.urlHash.replace(/\#\!\//, '');
+              console.log($scope.view);
 
               $http.get('http://34.203.219.137/g4/lists')
                       .success(function(result) {
