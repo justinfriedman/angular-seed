@@ -16,8 +16,17 @@
         text-align: center;
 }
 
+.title {
+        text-align: center;
+}
+
 .new-list {
         text-align: center;
+}
+
+.centered {
+        text-align: center;
+        margin: auto;
 }
 
 .main {
