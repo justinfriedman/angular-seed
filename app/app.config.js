@@ -12,8 +12,7 @@ angular.
           template: '<h2>Lets get rushin<h2>'
         }).
         when('/list-active', {
-          template: '<list-view-active></list-view-active>',
-          controller: 'listViewActiveController'
+          template: '<list-view-active></list-view-active>'
         }).
         when('/list-archive', {
           template: '<list-view-archive></list-view-archive>'
