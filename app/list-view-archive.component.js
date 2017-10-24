@@ -1,12 +1,12 @@
 //very similar to tutorial
 angular.
-  module('listView').
-  component('listView', {
-    templateUrl: 'list-view.html',
+  module('myApp').
+  component('listViewArchive', {
+    templateUrl: 'list-view-archive.html',
     controller:
-      function listViewController($routeParams, $scope) {
+      function listViewArchiveController($routeParams, $scope, $http) {
 
-              
+
 
 
       // for (var id in obj) {

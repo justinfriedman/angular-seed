@@ -1,7 +1,7 @@
 'use strict';
 angular.module('myApp', [
   'ngRoute',
-  'listView',
+  'listViewTop',
   'voteView',
   'signInView',
   'myOrgView',

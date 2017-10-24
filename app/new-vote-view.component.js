@@ -10,10 +10,10 @@ angular.
               //when user triggers event "selected list," call db for all recruits in list
               //put those recruits into the drop down
               //when user triggers event  "selected recruit," set that user as the desire one
-              //on submit, run script to create vote entry for this recruit 
+              //on submit, run script to create vote entry for this recruit
 
 
-
+        
 
 
 

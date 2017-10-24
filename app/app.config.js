@@ -11,8 +11,12 @@ angular.
         when('/main', {
           template: '<h2>Lets get rushin<h2>'
         }).
-        when('/list', {
-          template: '<list-view></list-view>'
+        when('/list-active', {
+          template: '<list-view-active></list-view-active>',
+          controller: 'listViewActiveController'
+        }).
+        when('/list-archive', {
+          template: '<list-view-archive></list-view-archive>'
         }).
         when('/vote', {
           template: '<vote-view></vote-view>'
